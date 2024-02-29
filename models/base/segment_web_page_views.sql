@@ -60,6 +60,7 @@ renamed as (
         id as page_view_id,
         anonymous_id,
         user_id,
+        event,
 
         received_at as received_at_tstamp,
         sent_at as sent_at_tstamp,

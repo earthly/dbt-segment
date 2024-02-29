@@ -22,6 +22,7 @@
     'utm_campaign' : 'utm_campaign',
     'utm_term' : 'utm_term',
     'gclid' : 'gclid',
+    'event' : 'first_event',
     'page_url' : 'first_page_url',
     'page_url_host' : 'first_page_url_host',
     'page_url_path' : 'first_page_url_path',
@@ -33,6 +34,7 @@
     } %}
 
 {% set last_values = {
+    'event' : 'last_event',
     'page_url' : 'last_page_url',
     'page_url_host' : 'last_page_url_host',
     'page_url_path' : 'last_page_url_path',
